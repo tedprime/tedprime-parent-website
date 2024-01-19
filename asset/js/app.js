@@ -6,7 +6,7 @@ const button = document.getElementById('btn')
 
 
 
-button.addEventListener('submit', function(){
+button.addEventListener('click', function(){
     const firstname = first.value.trim()
     const lastname = last.value.trim()
     const emailValue = email.value.trim()
@@ -19,6 +19,9 @@ button.addEventListener('submit', function(){
         alert('Enter your email')
     }else if(detailValue === ""){
         alert('Enter something')
+    }else{
+        alert('Form submitted successfully!')
+        redire
     }
 })
 
