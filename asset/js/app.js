@@ -13,15 +13,19 @@ button.addEventListener('click', function(){
     const detailValue = details.value.trim()
     if(firstname === ""){
         alert('Enter a your firstname')
+        return 0;
     }else if(lastname === ""){
         alert('Enter your lastname')
+        return 0;
     }else if(emailValue === ""){
         alert('Enter your email')
+        return 0;
     }else if(detailValue === ""){
         alert('Enter something')
+        return 0;
     }else{
         alert('Form submitted successfully!')
-        redire
+        return 0;
     }
 })
 
