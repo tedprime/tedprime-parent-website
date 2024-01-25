@@ -6,7 +6,9 @@ const button = document.getElementById('btn')
 
 
 
-button.addEventListener('click', function(){
+button.addEventListener('click', function(e){
+    e.preventDefault()
+
     const firstname = first.value.trim()
     const lastname = last.value.trim()
     const emailValue = email.value.trim()
