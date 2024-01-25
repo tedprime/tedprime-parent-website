@@ -3,76 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="asset/css/style.css">
     <title>TedPrime</title>
 </head>
 <body>
-
-    <!--Navigation Bar-->
-
-    <nav>
-
-        <a href="#" class="navbar-brand">
-            <img src="logo_prev_ui.png" alt="logo" class="logo1">
-        </a>
-        <ul>
-            <li><a href="#" class="a1">Home</a></li>
-            <li><a href="#" class="a1">About</a></li>
-            <li><a href="#" class="a1">Blog </a></li>
-            <li><a href="#" class="a1">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!--End of Navigation Bar-->
-
-    <!--Hero Page-->
-
-    <header> 
-        <div class="hero row container">
-            <div class="hero-content">
-                <h1>Crash The Complexity<br>Unlock Your Tech Superpowers.</h1>
-                <p>Complex Problems Solved Before You Blink</p>
-                <a href="#" class="button-2">Get to know us...</a>
-            </div>    
-        </div>
+    <header>
+        <h1><img src="asset/img/logo_prev_ui.png" alt="logo" class="logo1" id="img1"></h1>
+        
+        <nav>
+            <ul id="ul1">
+                <li><a href="#" class="a1">Home</a></li>
+                <li><a href="#" class="a1">About</a></li>
+                <li><a href="#" class="a1">Blog </a></li>
+                <li><a href="#" class="a1">Contact</a></li>
+            </ul>
     
+            <div id="mediaHam">
+                <div id="ham">
+                    <div class="hamburger"></div>
+                    <div class="hamburger"></div>
+                    <div class="hamburger"></div>
+                </div>
+                <!-- <div id="navbarham"></div> -->
+                <ul id="navul">
+                    <li><a href="#" class="a1">Home</a></li>
+                    <li><a href="#" class="a1">About</a></li>
+                    <li><a href="#" class="a1">Blog </a></li>
+                    <li><a href="#" class="a1">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    
-    <!--End of Hero Page-->
 
-    <!--The Innovations We Pioneer-->
-        <section>
+    <main>
+        <div id="homepage">
+            <div id="middleDiv">
+                <h3>Crash The Complexity<br>Unlock Your Tech Superpowers.</h3>
+                <p id="#p15" style="color: white;">Complex Problems Solved Before You Blink</p>
+                <button id="button-2">Get to know us...</button>
+            </div>
+           
+        </div>
+
+
+        <!--  -->
+        <section id="sect1">
             <div class="introduction">
                 <h2>THE INNOVATIONS WE PIONEER</h2>
                 <p class="p1">Think Faster.Build Smarter.Launch Better.</p>
             </div>
-
+    
             <div class="big-container">
-
+    
                 <div class="small-container">
-                    <img src="TedPrime.jpg" alt="tedprimehub" class="logo">
+                    <img src="asset/img/TedPrime.jpg" alt="tedprimehub" class="logo">
                     <p>TedPrime Hub is a globally connected organized with its framework to usher in the new revolution where education becomes the main undefying factor in the new world and ecosystem that is engulfed with technology and innovation.</p>
                     <br>
-                    <button class="orange-btn">Get to know us...</button>
-                </div>
-
-                <div class="small-container">
-                    <img src="Tacbay.jpg" alt="tacbay" class="logo">
-                    <p>Find the right Artisan,Technician,Craftsman near you.TACBay is a one stop platform technology as a driving school to connect people with Artisans,Technicians, and Craftsmen together for market visibility of products and services.</p>
                     <br>
                     <button class="orange-btn">Get to know us...</button>
                 </div>
-
+    
+                <div class="small-container">
+                    <img src="asset/img/Tacbay.jpg" alt="tacbay" class="logo">
+                    <p>Find the right Artisan,Technician,Craftsman near you.TACBay is a one stop platform technology as a driving school to connect people with Artisans,Technicians, and Craftsmen together for market visibility of products and services.</p>
+                    <br>
+                    <br>
+                    <button class="orange-btn">Get to know us...</button>
+                </div>
+    
                 <div class="small-container">
                     <p id="p3"><span>Edu</span>Box</p>
                     <p>World's best educational resources packaged together for places without internet thereby improving access to up to date instructional contents.</p>
                     <br>
+                    <br>
                     <button class="orange-btn">Get to know us...</button>
                 </div>
-
+    
             </div>
         </section>
+        <section></section>
+    </main>
+   
+    <!--Navigation Bar-->
+
+   
 
      <!--The Innovations We Pioneer-->
+
+
+     <!--JAVASCRIPT-->
+    <script src="asset/js/script.js"></script>
 </body>
 </html>
