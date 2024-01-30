@@ -3,6 +3,7 @@
     margin: auto;
     box-sizing: border-box;
     font-family: 'Mona sans';
+    scroll-behavior: smooth;
 }
 
 body{
