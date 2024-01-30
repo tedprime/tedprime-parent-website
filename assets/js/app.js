@@ -31,3 +31,21 @@ button.addEventListener('click', function(e){
     }
 })
 
+
+const email1 = document.getElementById('input-email')
+const button1 = document.getElementById('bot-btn')
+button1.addEventListener('click', function(e){
+    e.preventDefault()
+
+   
+    const emailValue1 = email1.value.trim()
+    if(emailValue1 === ""){
+        alert('Enter your email')
+        return 0;
+    }else{
+        alert('Email submitted successfully!')
+        return 0;
+    }
+})
+
+
