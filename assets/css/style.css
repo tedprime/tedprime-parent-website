@@ -1,10 +1,17 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src: url('assets/fonts/mona-sans.woff2') format('woff2');
+      
+}
+
 *{
     padding: auto;
     margin: auto;
     box-sizing: border-box;
-    font-family: 'Mona sans';
-    scroll-behavior: smooth;
+    font-family: 'Mona Sans', sans-serif;
+    /* scroll-behavior: smooth; */
 }
+
 
 body{
     background-color: white;
@@ -19,7 +26,7 @@ header{
     background-color: rgba(0, 0, 0, 0.3);
     /* position: relative; */
     z-index: 20;
-    height: 12dvh;
+    height: 100px;
 }
 .sticky{
     position: fixed;
@@ -57,7 +64,7 @@ nav #ul1{
 
 /* main */
 #homepage{
-    background: url(../img/backgroundimage.jpg);
+    background: url(../img/backgroundimage.png);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -94,10 +101,9 @@ nav #ul1{
     height: 60px;
     width: 20%;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     font-size: 1rem;
-    margin-bottom: 0px;
     cursor: pointer;
     margin-top: -50px;
 }
@@ -276,7 +282,7 @@ span{
     font-size: 16px;
     line-height: 1.6;
     text-align: justify;
-    } 
+} 
 #abt-img2{
     width: 100%;
     border-bottom: 2px solid #EF6E11 ;
@@ -286,6 +292,7 @@ span{
 
 /*  SIGNATURE PARTNERSHIP */
 #abt-bigDiv2{
+
     width: 100%;
     border: 2px solid transparent;
     height: fit-content;
@@ -446,6 +453,7 @@ footer {
     gap: 5px ;
 }
 
+
 .footer-section {
     margin-bottom: 20px;
 }
@@ -578,101 +586,12 @@ footer {
     font-size: 0.8rem;
     color: #fff;
 }
+
   
-@media (max-width:900px){
-    
-    #homepage{
-        height: 80vh;
+@media (max-width:1024px){
+    header{
+        height: 80px;
     }
-    #sect1{
-        margin-top: 70dvh;
-    }
-    #middleDiv{
-        padding-top: 20px;
-        margin-top: 25%;
-    }
-    /*  */
-    #button-2{
-        width: 30%;
-        height: 50px;
-        margin-bottom: 350px;
-    }
-    #p15{
-        margin-bottom: 110px;
-    }
-    h3{
-        font-size: 2rem;
-    }
-
-    /* #navbarham{
-        width: 100%;
-        background-color: black;
-    } */
-
-    /* middle */
-    #homepage{
-        height: 100dvh
-    }
-    .big-container{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .small-container{
-        height: 500px;
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        justify-content: baseline;
-        align-items: center;
-        padding-bottom: 50px;
-    }
-    .footer-ul li{
-      font-size: 0.7rem;
-    }
-    #input-email{
-      width: 80%;
-    }  
-    #bot-btn{
-      width: 150px;
-      height: 35px;
-    }
-    #endorse-h3{
-  
-      font-size: 2rem;
-  
-    }
-    #endorse-para{
-      font-size: 1rem;
-     
-    }
-    .abt-img4{
-        margin-left: 20px;
-        width: 40%;
-    }
-    #abt-img4{
-        width: 30%;
-        margin-left: 20px;     
-    }
-    #abt-div2{
-        height: fit-content;
-    }
-}
-  
-
-@media (max-width:850px){
-    #abt-p7{
-        font-size: 0.9rem;
-        text-align: center;
-    }
-}
-
-/* tab */
-@media (max-width:769px){
-   #img1{
-        width: 100px;
-        margin-left: -85px;
-   }
     /* hamburger */
     nav #ul1{
         display: none;
@@ -688,7 +607,7 @@ footer {
         width: 100%;
         background: linear-gradient(gray, black) ;
         position: absolute;
-        top: 12dvh;
+        top: 80px;
         left: 0;
         height: fit-content;
         display:none;
@@ -711,10 +630,126 @@ footer {
     #navul li a{
         text-align: center;
     }
+
+    /*  */
+    #homepage{
+        height: 150dvh;
+    }
+    #sect1{
+        margin-top: 140dvh;
+    }
+    #middleDiv{
+        padding-top: 15px;
+        margin-top: 10%;
+    }
+
+
+    /*  */
+    #button-2{
+        width: 30%;
+        height: 50px;
+        margin-bottom: 300px;
+    }
+    #p15{
+        margin-bottom: 100px;
+    }
+    h3{
+        font-size: 2rem;
+    }
+   
+    #homepage{
+        height: 150dvh
+    }
+    .big-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .small-container{
+        height: 500px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    #middleDiv{
+        
+        height: 120dvh;
+    }
+
+    #abt-div2{
+        height: 150dvh;
+    }
+    #abt-p2{
+        font-size: 0.8rem;
+        padding-left: -15px;
+        padding-right: -15px;
+        padding-top: 15px;
+        width: 80%;
+        height: fit-content;
+        border: none; 
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: justify;
+    } 
+    .footer-ul li{
+      font-size: 0.7rem;
+    }
+    #input-email{
+      width: 80%;
+    }  
+    #bot-btn{
+      width: 150px;
+      height: 35px;
+    }
+    #endorse-h3{
+  
+      font-size: 2rem;
+  
+    }
+    #endorse-para{
+      font-size: 1rem;
+     
+    }
+    .abt-img4{
+        margin-left: 20px;
+        width: 20%;
+    }
+    #abt-img4{
+        width: 15%;
+        margin-left: 20px;     
+    }
+    #abt-div2{
+        height: fit-content;
+    }
+  
+    .footer-h3{
+        font-size: 0.9rem;
+    }
+}
+  
+
+@media (max-width:900px){
+    #abt-p7{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+/* tab */
+@media (max-width:769px){
+   #img1{
+        width: 120px;
+        margin-left: -85px;
+   }
+
    
     /*  */
     #sect1{
-        padding-top: 150px;
+        padding-top: 100px;
     }
     .small-container img{
         width: 130px;
@@ -746,6 +781,7 @@ footer {
     }
     #abt-p2{
         color: white;
+        font-size: 0.8rem;
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 30px;
@@ -753,8 +789,8 @@ footer {
         height: fit-content;
         border: none; 
         font-family: 'Arial', sans-serif;
-        font-size: 1rem;
-        line-height: 1;
+        font-size: 16px;
+        line-height: 1.2;
         text-align: justify;
     }
     
@@ -825,9 +861,7 @@ footer {
     #input-email{
         width: 90%;
     } 
-    svg{
-        width: 13px ;
-    }
+   
     .footer-h3{
         font-size: 0.8rem;
     }
@@ -843,9 +877,14 @@ footer {
     #yo-h6{
         font-size: 0.9rem;
     }
+  
+  
 }
 
+/* @media(min-width:770px) and (max-width:1024px){
+    
 
+} */
 
 
 /* medium phone */
@@ -876,14 +915,17 @@ footer {
     }
     #abt-divCarousel{
         margin-right: 35px;
+        
     }
     .abt-img4{
         margin-left: 20px;
-        width: 40%;
+        width: 35%;
+        
     }
     #abt-img4{
-        width: 30%;
-        margin-left: 20px;     
+        width: 25%;
+        margin-left: 20px; 
+            
     }
     .abt-h2{
         font-size: 1.2rem;
@@ -923,7 +965,7 @@ footer {
     #copy-para{
         font-size: 0.7rem;
     }
-
+ 
     /*  */
    
 }
