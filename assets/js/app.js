@@ -6,23 +6,18 @@ const button = document.getElementById('btn')
 
 
 
-button.addEventListener('click', function(e){
-    e.preventDefault()
-
-    const firstname = first.value.trim()
-    const lastname = last.value.trim()
-    const emailValue = email.value.trim()
-    const detailValue = details.value.trim()
-    if(firstname === ""){
-        alert('Enter a your firstname')
+button.addEventListener('click', function(){
+ 
+    if(first.value.trim() === ""){
+        alert('Enter your firstname')
         return 0;
-    }else if(lastname === ""){
+    }else if(last.value.trim() === ""){
         alert('Enter your lastname')
         return 0;
-    }else if(emailValue === ""){
+    }else if(email.value.trim() === ""){
         alert('Enter your email')
         return 0;
-    }else if(detailValue === ""){
+    }else if(details.value.trim() === ""){
         alert('Enter something')
         return 0;
     }else{
@@ -34,16 +29,12 @@ button.addEventListener('click', function(e){
 
 const email1 = document.getElementById('input-email')
 const button1 = document.getElementById('bot-btn')
-button1.addEventListener('click', function(e){
-    e.preventDefault()
-
-   
-    const emailValue1 = email1.value.trim()
-    if(emailValue1 === ""){
+button1.addEventListener('click', function(){
+    if(email1.value.trim() === ""){
         alert('Enter your email')
         return 0;
     }else{
-        alert('Email submitted successfully!')
+        alert('Form submitted successfully!')
         return 0;
     }
 })
