@@ -80,7 +80,8 @@
 
         <!-- About -->
     <div id="abt-bigDiv">
-        <div>
+        <br><br><br>
+        <div id="abt-div">
             <h2 class="abt-h2">INSIDE THE BRAND</h2>
             <p id="abt-p1">Lets tell you a little about us</p>
         <!-- <img src="asset/img/about_bg.png" alt="" id="img1"> -->
@@ -160,7 +161,7 @@
             
             <fieldset>
                
-                <form action="" method="POST">
+                <form action="include/backend.php" method="post">
                     <h4 id="abt-p7">
                         Let Your Fingers Do The Talking
                     </h4>
@@ -184,10 +185,10 @@
                     <div class="abt-divcla" id="abt-div7">
                         <label for="detail">Details*</label>
                         <br>
-                        <textarea name="" id="detail" cols="30" rows="10" placeholder="Let your message come right in here, we are right on the other end to answer your questions"></textarea>
+                        <textarea name="details" id="detail" cols="30" rows="10" placeholder="Let your message come right in here, we are right on the other end to answer your questions"></textarea>
                     </div>
                     <br>
-                    <button class="abt-btn" type="submit" id="btn">Holla</button>
+                    <button type="submit" class="abt-btn" id="btn" name="btn">Holla</button>
                     <br><br>
                     
                 </form>
@@ -205,11 +206,15 @@
           </div>
           
         </div>
-        <div class="bot">
-          <input type="email" placeholder="email@gmail.com" id="input-email">
-          <br>
-          <button id="bot-btn">Holla</button>
-        </div>
+        <form action="include/email.php" method="post">
+            <div class="bot">
+            
+                <input type="email" placeholder="email@gmail.com" id="input-email">
+                <br>
+                <button type="submit"  name="btn2" id="bot-btn">Holla</button>
+            </div>
+        </form>
+       
       </div>
     
       <div class="second-section">
