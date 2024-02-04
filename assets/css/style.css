@@ -673,7 +673,8 @@ footer {
         padding-bottom: 50px;
     }
     #middleDiv{
-        
+        margin-top: 15%;
+        padding-top: 10px;
         height: 120dvh;
     }
     #abt-bigDiv{
