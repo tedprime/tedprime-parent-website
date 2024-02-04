@@ -93,8 +93,8 @@ nav #ul1{
 
 #p15{
     color: white;
-    margin-bottom: 190px;
-    padding-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 #button-2{
     background-color: rgba(0, 0, 0, 0.3);
@@ -231,7 +231,7 @@ span{
 /* About */
 #abt-bigDiv{
     width:100%;
-    height: 180dvh;
+    height: 250dvh;
     border: 2px solid black;
     background-image: url(../img/about_bg.jpg);
     background-size: contain;
@@ -554,11 +554,13 @@ footer {
     font-size: 1.5rem;
     color: var(--Colors-text-text-light, #fafafa);
     font-family: "Mona Sans";
+    margin-left: 20px;
 }
 #yo-h6{
     font-size: 1rem;
     color: var(--Colors-text-text-light, #fafafa);
     font-family: "Mona Sans";
+    margin-left: 20px;
 }
 .baba {
     display: flex;
@@ -639,8 +641,8 @@ footer {
         margin-top: 140dvh;
     }
     #middleDiv{
-        padding-top: 15px;
-        margin-top: 10%;
+        padding-top: 30px;
+        margin-top: 15%;
     }
 
 
@@ -651,14 +653,10 @@ footer {
         margin-bottom: 300px;
     }
     #p15{
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
     h3{
         font-size: 2rem;
-    }
-   
-    #homepage{
-        height: 150dvh
     }
     .big-container{
         display: flex;
@@ -678,23 +676,43 @@ footer {
         
         height: 120dvh;
     }
-
+    #abt-bigDiv{
+        height: 250dvh;
+        
+        width: 100%;
+    }
+    #abt-div{
+        margin-top: -4px;
+    }
+    #abt-div1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 10dvh;
+        margin-top: -500px;
+        padding-right: 5px;
+    }
     #abt-div2{
+        width: 90%;
         height: 150dvh;
+        margin-top: 100px;
     }
     #abt-p2{
-        font-size: 0.8rem;
+        font-size: 16px;
         padding-left: -15px;
         padding-right: -15px;
-        padding-top: 15px;
+        padding-top: 10px;
         width: 80%;
         height: fit-content;
         border: none; 
         font-family: 'Arial', sans-serif;
-        font-size: 16px;
         line-height: 1.6;
         text-align: justify;
     } 
+    #abt-img2{
+        padding-top: 200px;
+        width: 100%;
+    }
     .footer-ul li{
       font-size: 0.7rem;
     }
@@ -764,19 +782,19 @@ footer {
 
     /* about */
     #abt-bigDiv{
-        height: 180dvh;
-        padding-top: -300px;
+        height: 300dvh;
+        padding-top: -100px;
         width: 100%;
     }
     #abt-div1{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: fit-content;
+        height: 170dvh;
     }
     #abt-div2{
         width: 90%;
-        height: fit-content;
+        height: 150dvh;
         margin-top: 100px;
     }
     #abt-p2{
@@ -803,7 +821,7 @@ footer {
     #abt-img2{
         display: block;
         margin: auto;
-        width: 65%;
+        width: 50%;
     }
     
 
@@ -911,7 +929,8 @@ footer {
         height: fit-content;
     }
     #abt-img2{
-        width: 60%;
+        margin-top: -200px;
+        width: 100%;
     }
     #abt-divCarousel{
         margin-right: 35px;
@@ -975,8 +994,8 @@ footer {
         height: 60px;
     }
     #abt-bigDiv{
-        height: 195dvh;
-        padding-top: -300px;
+        height: 250dvh;
+        padding-top: -150px;
         width: 100%;
     }
     #abt-div1{
@@ -1000,9 +1019,8 @@ footer {
          
     }
     #abt-img2{
-        display: block;
-        margin: auto;
-        width: 83%;
+        margin-top: -200px;
+        width: 100%;
     }
 }
 @media (max-width: 465px){
