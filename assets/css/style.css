@@ -456,6 +456,12 @@ footer {
     display: flex;
     justify-content: space-around;
     gap: 5px ;
+    flex-direction: row;
+}
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
 }
 
 
@@ -592,6 +598,9 @@ footer {
 .footer-ul li{
     font-size: 0.8rem;
     color: #fff;
+}
+#footer-contact{
+    margin-top: -1px;
 }
 
   
@@ -875,12 +884,16 @@ footer {
     #endorse-para{
         font-size: 0.8rem;
     }
-    .footer-ul li{
-        font-size: 0.5rem;
+    .endorse-img{
+        width: 15%;
     }
     #input-email{
         width: 90%;
     } 
+    .footer-ul li{
+        font-size: 0.5rem;
+    }
+   
    
     .footer-h3{
         font-size: 0.8rem;
@@ -888,16 +901,16 @@ footer {
     #copy-para{
         font-size: 0.8rem;
     }
-    .endorse-img{
-        width: 15%;
-    }
+   
     #yo-h4{
         font-size: 1.2rem;
     }
     #yo-h6{
         font-size: 0.9rem;
     }
-  
+    .footer-div{
+        flex-direction: column;
+    }
   
 }
 
