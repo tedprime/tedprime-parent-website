@@ -456,12 +456,6 @@ footer {
     display: flex;
     justify-content: space-around;
     gap: 5px ;
-    flex-direction: row;
-}
-.footer-div{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
 }
 
 
@@ -907,9 +901,6 @@ footer {
     }
     #yo-h6{
         font-size: 0.9rem;
-    }
-    .footer-div{
-        flex-direction: column;
     }
   
 }
