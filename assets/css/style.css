@@ -172,6 +172,7 @@ h2{
 .small-container .ptext{
     padding-top: 35px;
     padding-left: 5px;
+    text-align: justify;
 }
 
 .small-container img{
