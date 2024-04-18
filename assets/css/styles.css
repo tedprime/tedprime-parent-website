@@ -642,9 +642,11 @@ h2{
 @media(max-width: 768px){
   #big-sect1, #big-sect3{
     flex-direction: column;
+    gap:150px;
   }
   #big-sect2{
     flex-direction: column-reverse;
+    gap:150px;
   }
   #mttimg, #cyberimg, #uiuximg{
     width: 100% ;
@@ -653,8 +655,8 @@ h2{
   }
   
   #img1, #img2, #img3{
-  width: 100%;
-  height: fit-content;
+      width: 100%;
+      height: fit-content;
   }
   #mtt, #cybersecurity, #uiux {
     width: 100%;
@@ -690,14 +692,22 @@ h2{
     display: grid;
   } */
 }
+@media(max-width:600px){
+  #big-sect1, #big-sect3{
+    flex-direction: column;
+    gap: 0px;
+  }
+  #big-sect2{
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+}
 @media(max-width:500px){
   #header .logo img {
     width: 100px;
   }
   #footer {
-    
     font-size: 0.8rem;
-
   }
   #footer .footer-newsletter h4{
     font-size: 0.8rem;
