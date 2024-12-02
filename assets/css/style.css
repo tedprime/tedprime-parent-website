@@ -296,6 +296,238 @@ span{
     margin-top: 80px;
 }
 
+/* SPECIAL OFFER */
+.special-deal{
+    position: relative;
+    padding: 1rem;
+    height: 15rem;
+    width: 100% !important;
+    background-image: url(../img/display.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(white, black); */
+}
+
+.offer-heading{
+    text-align: center;
+}
+
+.offer-heading h1 span{
+    font-weight: bold;
+    animation: motion 1.5s infinite;
+}
+
+.off{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
+.off img{
+    height: 7rem;
+    width: 7rem;
+}
+
+.read-more{
+    display: flex;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: 20rem;
+}
+
+.read-more .glow{
+    color: white;
+    font-size: 19px;
+    margin-right: 1rem;
+    font-weight: 500;
+    text-shadow: 0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 30px #ef6e11,
+        0 0 40px #ef6e11,
+        0 0 50px #ef6e11,
+        0 0 60px #ef6e11;
+    animation: glow 2s infinite
+}
+
+.read-more button{
+    padding: 10px;
+    border-radius: .5rem;
+    border: none;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #ef6e11;
+}
+
+.read-more button:hover{
+    background-color: #fa8d28;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.deal{
+    background-image: url(../img/tedprime.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+
+.badge{
+    position: absolute;
+    top: 7rem;
+    right: 23rem;
+}
+
+.badge img{
+    height: 7rem;
+    width: 7rem;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.heading div h1{
+    font-size: 74px;
+    font-weight: 700;
+}
+
+.heading div p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.products .parent-container {
+    background-color: #ef6e11;
+    padding: 20px;
+    margin-bottom: 1rem;
+    width: 26rem;
+    height: 20rem;
+    border-radius: 8px;
+    color: white;
+}
+
+.products .parent-container img{
+    height: 100%;
+    width: 50%;
+    padding-right: 1rem;
+}
+
+.parent-container .text{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.text{
+    position: relative;
+}
+
+.text h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.text p{
+    font-size: 14px;
+    margin-bottom: .5rem;
+    color: white;
+    line-height: 1.2;
+}
+
+.text button{
+    position: absolute;
+    bottom: 3px;
+    right: 2px;
+    height: 2rem;
+    width: 5rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: white;
+    color: #ef6e11;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.text button:hover{
+    background-color: lightgray;
+}
+
+@keyframes motion{
+    0% {
+        text-shadow: 0px 0px 0px #ff6666,
+        0px 0px 0px #ff9999,
+        0px 0px 0px #ffcccc;
+    }
+
+    25%{
+        text-shadow: 2px 2px 2px #ff6666,
+        0px 0px 0px #ff9999,
+        0px 0px 0px #ffcccc;
+    }
+
+    50%{
+        text-shadow: 4px 4px 4px #ff6666,
+        2px 2px 2px #ff9999,
+        0px 0px 0px #ffcccc;
+    }
+
+    75%{
+        text-shadow: 6px 6px 6px #ff6666,
+        4px 4px 4px #ff9999,
+        2px 2px 2px #ffcccc;
+    }
+
+    100%{
+        text-shadow: 8px 8px 8px #ff6666,
+        6px 6px 6px #ff9999,
+        4px 4px 4px #ffcccc;
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 15px #ef6e11,
+        0 0 20px #ef6e11,
+        0 0 25px #ef6e11,
+        0 0 30px #ef6e11;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #ffffff,
+        0 0 30px #ffffff,
+        0 0 40px #ef6e11,
+        0 0 50px #ef6e11,
+        0 0 60px #ef6e11,
+        0 0 70px #ef6e11;
+    }
+
+    100% {
+        text-shadow: 0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 15px #ef6e11,
+        0 0 20px #ef6e11,
+        0 0 25px #ef6e11,
+        0 0 30px #ef6e11;
+    }
+}
 /*  SIGNATURE PARTNERSHIP */
 #abt-bigDiv2{
 
@@ -598,6 +830,63 @@ footer {
     margin-top: -1px;
 }
 
+@media (max-width: 1366px){
+    .badge{
+        position: absolute;
+        top: 7rem;
+        right: 20rem;
+    }
+    
+    .badge img{
+        height: 7rem;
+        width: 7rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 1280px){
+    .products{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .products .parent-container{
+        width: 25rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 7rem;
+        right: 4rem;
+    }
+    
+    .badge img{
+        height: 7rem;
+        width: 7rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 1112px){
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .badge{
+        position: absolute;
+        top: 7rem;
+        right: 4rem;
+    }
+    
+    .badge img{
+        height: 7rem;
+        width: 7rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
+}
+
   
 @media (max-width:1024px){
     header{
@@ -751,6 +1040,23 @@ footer {
     .footer-h3{
         font-size: 0.9rem;
     }
+
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .badge{
+        position: absolute;
+        top: 7rem;
+        right: 8rem;
+    }
+    
+    .badge img{
+        height: 7rem;
+        width: 7rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
 }
   
 
@@ -758,6 +1064,24 @@ footer {
     #abt-p7{
         font-size: 0.9rem;
         text-align: center;
+    }
+
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .badge{
+        position: absolute;
+        top: 7rem;
+        right: 4rem;
+    }
+    
+    .badge img{
+        height: 7rem;
+        width: 7rem;
+        background-color: grey;
+        border-radius: 50%;
     }
 }
 
@@ -903,6 +1227,27 @@ footer {
     #yo-h6{
         font-size: 0.9rem;
     }
+
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products .parent-container{
+        width: 25rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 5.5rem;
+        right: 1.5rem;
+    }
+    
+    .badge img{
+        height: 5rem;
+        width: 5rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
   
 }
 
@@ -910,6 +1255,63 @@ footer {
     
 
 } */
+
+@media(max-width: 765px){
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products .parent-container{
+        width: 30rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 5.5rem;
+        right: 1.5rem;
+    }
+    
+    .badge img{
+        height: 5rem;
+        width: 5rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
+}
+
+@media(max-width: 700px){
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products .parent-container{
+        width: 30rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 5.5rem;
+        right: 1.5rem;
+    }
+    
+    .badge img{
+        height: 5rem;
+        width: 5rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
+
+    .off{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .off img{
+        height: 4rem;
+        width: 4rem;
+    }
+}
 
 
 /* medium phone */
@@ -987,6 +1389,27 @@ footer {
     #copy-para{
         font-size: 0.7rem;
     }
+
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products .parent-container{
+        width: 30rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+    }
+    
+    .badge img{
+        height: 4.5rem;
+        width: 4.5rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
  
     /*  */
    
@@ -1027,6 +1450,39 @@ footer {
         margin-top: -200px;
         width: 90%;
     }
+
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products .parent-container{
+        width: 25rem;
+        height: 22rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+    }
+    
+    .badge img{
+        height: 4.5rem;
+        width: 4.5rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
+
+    .off{
+        position: absolute;
+        right: 2px;
+        top: 2px;
+    }
+
+    .off img{
+        height: 3rem;
+        width: 3rem;
+    }
 }
 @media (max-width: 465px){
     #button-2{
@@ -1042,6 +1498,27 @@ footer {
     #abt-div2{
         margin-top: 500px;
     }
+
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products .parent-container{
+        width: 23rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+    }
+    
+    .badge img{
+        height: 4.5rem;
+        width: 4.5rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
 }
 @media (max-width: 419px){
     #button-2{
@@ -1051,11 +1528,54 @@ footer {
     #abt-div3{
         height: 10dvh;
     }
+
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products .parent-container{
+        width: 18rem;
+        height: 23.5rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+    }
+    
+    .badge img{
+        height: 4.5rem;
+        width: 4.5rem;
+        background-color: grey;
+        border-radius: 50%;
+    }
     
 }
 @media (max-width: 287px){
     #abt-bigDiv{
         height: 270dvh;  
+    }
+
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products .parent-container{
+        width: 18rem;
+    }
+
+    .badge{
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+    }
+    
+    .badge img{
+        height: 4.5rem;
+        width: 4.5rem;
+        background-color: grey;
+        border-radius: 50%;
     }
 }
 
